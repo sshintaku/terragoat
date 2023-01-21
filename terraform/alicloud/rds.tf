@@ -23,10 +23,10 @@ resource "alicloud_db_instance" "seeme" {
     git_last_modified_at = "2022-04-05 15:14:28"
     git_last_modified_by = "james.woolfenden@gmail.com"
     git_modifiers        = "james.woolfenden"
-    git_org              = "bridgecrewio"
+    git_org              = "sshintaku"
     git_repo             = "terragoat"
     yor_trace            = "7bd1394e-0a79-4288-8f83-5abcca5bf1ba"
   }
   auto_upgrade_minor_version = "Auto"
-  ssl_action = true
+  ssl_action                 = true
 }
