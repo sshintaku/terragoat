@@ -6,7 +6,7 @@ resource "google_sql_database_instance" "master_instance" {
   settings {
     tier = "db-f1-micro"
     ip_configuration {
-      require_ssl = true
+      require_ssl  = true
       ipv4_enabled = true
       authorized_networks {
         name  = "WWW"
@@ -31,7 +31,7 @@ resource "google_bigquery_dataset" "dataset" {
     git_last_modified_at = "2022-01-19-17-02-27"
     git_last_modified_by = "jameswoolfenden"
     git_modifiers        = "jameswoolfenden__nimrodkor"
-    git_org              = "bridgecrewio"
+    git_org              = "sshintaku"
     git_repo             = "terragoat"
     yor_trace            = "2560d883-bc3a-4cb6-b9fc-fb666edf626e"
   }
